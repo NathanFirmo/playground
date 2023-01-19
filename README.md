@@ -1,4 +1,4 @@
-#  Playground
+# 🚀 Playground
 
 Just a lot of codes I wrote for fun.
 

@@ -7,8 +7,10 @@ int main() {
   scanf("%d", &numberInserted);
   printf("The number you have inserted is: %d\n", numberInserted);
 
-  
-
+  /* 
+   * It's necessary to put an space before "%c" in scanf to avoid the defautl behaviour that gets the "\n" string
+   * and not waits the user.
+   * */
   char charInserted;
   printf("Insert a char: ");
   scanf(" %c", &charInserted);
